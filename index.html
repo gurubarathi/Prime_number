@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+
+  <div id="container">
+   <input type="number" value="" id="nos">
+   <button id="btn" onclick="myFunction()">get the nos</button>
+   <p id="result"></p>
+  </div>
+<script>
+    
+  /*****************
+   prime no ranging
+  *****************/
+
+  function myFunction()
+    {
+	let no = document.getElementById("nos").value;
+	let prt=document.getElementById("result");
+	  for(value=1;value<no;value++)
+		{
+		  if(value%2==0||value%3==0||value%5==0)
+		  {
+			if(value==2||value==3||value==5){
+			prt.innerHTML = value+"<br>";
+			}
+			else{
+			}
+		  }
+		  else{
+		  prt.innerHTML = value+"<br>";
+		  }
+		}
+    }
+  /*******************
+    factorial no
+   ****************/
+<!-- //factorial no -->
+ <!-- let no = 5; -->
+ <!-- let result=1; -->
+  <!-- for(i=no;i>=1;i--){ -->
+    <!-- result*=i;  -->
+  <!-- } -->
+  <!-- console.log(result); -->
+  
+  /*****************
+      fibnoacis series
+    ****************/
+  
+  <!-- let no =5; -->
+   <!-- var a=0; -->
+   <!-- var b=1; -->
+ 
+  <!-- for (i=0;i<no;i++){ -->
+    <!-- var c= a+b; -->
+	<!-- a=b; -->
+	<!-- b=c; -->
+	<!-- console.log(c); -->
+  <!-- } -->
+
+ </script>
+</body>
+</html>
